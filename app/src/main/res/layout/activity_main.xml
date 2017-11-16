@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wind.wxpay.MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="微信支付订单"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textColor="#1145cd" />
+    <Button 
+        style="@style/activity_button"
+        android:text="提交订单"
+        android:id="@+id/bt_submit_order"
+        />
+    <Button style="@style/activity_button"
+        android:text="确认支付"
+        android:id="@+id/bt_corfirm"/>
+     <TextView
+        android:id="@+id/tv_prepay_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </TextView>
+
+</LinearLayout>
